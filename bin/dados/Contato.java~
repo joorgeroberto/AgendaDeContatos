@@ -1,0 +1,75 @@
+import java.util.Scanner;
+
+package dados;
+
+public class Contato 
+{
+	//Atributos.
+	private nome;
+	private telefoneFixo;
+	private telefoneCelular;
+	private email;
+	private Aniversario aniversario;
+	private posicao;
+	//Construtor
+	public Contato (String nome, float telefoneFixo, float telefoneCelular, String email, int aniversario, float posicao)
+	{
+		this.nome = nome;
+		this.telefoneFixo = telefoneFixo;
+		this.telefoneCelular = telefoneCelular;	
+		this.email = email;
+		this.aniversario = aniversario;
+		this.posicao = posicao;
+	}
+	//Métodos acessores.
+	public int getNome () 
+	{
+		return this.nome;
+	}
+	public float getTelefoneFixo () 
+	{
+		return this.telefoneFixo;
+	}
+	public float getTelefoneCelular () 
+	{
+		return this.telefoneCelular;
+	}
+	public String getEmail () 
+	{
+		return this.email;
+	}
+	public int getAniversario () 
+	{
+		return this.aniversario;
+	}
+	public float getPosicao () 
+	{
+		return this.posicao;
+	}
+	//Metodos modificadores.
+	public void setNome(String nome) 
+	{
+		this.nome = nome;
+	}
+	public void setTelefoneFixo (float telefoneFixo) 
+	{
+		this.telefoneFixo = telefoneFixo;
+	}
+	public void setTelefoneCelular(float telefoneCelular) 
+	{
+		this.telefoneCelular = telefoneCelular;	
+	}
+	public void setEmail (String email)
+	{
+		this.email = email;
+	}
+	public void setAniversario (Aniversario aniversario)
+	{
+		this.aniversario = aniversario;
+	}
+	public void setPosicao (float posicao)
+	{
+		this.posicao = posicao;
+	}
+
+} 
