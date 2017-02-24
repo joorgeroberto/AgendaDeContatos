@@ -1,3 +1,3 @@
 # AgendaDeContatos
 
-Simple contacts calendar using Java.
+Agenda de contatos simples usando Java.
